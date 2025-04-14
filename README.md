@@ -12,3 +12,11 @@
 --add-opens java.base/java.util=ALL-UNNAMED
 --add-opens java.base/java.util.concurrent=ALL-UNNAMED
 ```
+
+---
+
+Переменные среды **HADOOP_HOME** и **SPARK_HOME** должны быть установлены, пример:
+```
+HADOOP_HOME C:\Hadoop
+SPARK_HOME C:\spark-3.5.3-bin-hadoop3
+```
